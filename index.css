@@ -1,0 +1,130 @@
+/* Palette
+
+hex:            where:
+#1C1C1C         body
+#1F2937         container
+#4ADF86         h1
+white           h1
+#D5D4D8         p   
+#fffff          btn text
+#10B981         btn background
+#273549         text-fields
+#55F991         generated pws
+*/
+
+/* Fonts
+
+.karla-<uniquifier> {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1C1C1C ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: "Karla", serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 115px;
+    margin-left: 52px;
+    margin-bottom: 10px;
+}
+
+#green-h1 {
+    color: #4ADF86;
+}
+
+p {
+    color: #D5D4D8;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 52px;
+    margin-top: 0;
+    margin-bottom: 51px;
+}
+
+button {
+    background-color: #10B981;
+    border: none;
+    color: #ffffff;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    margin-left: 52px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    border: 0.5px solid #273549;
+    width: 446px;
+}
+
+.pw-div {
+    margin-top: 0px;
+    color: #55F991;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+#pw-div-1 {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pw-div-2 {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main-container {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+}
